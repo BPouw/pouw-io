@@ -5,6 +5,17 @@ import {LinkCard} from "@/app/LinkCard";
 export default function Home() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
+            <div className="w-48 h-48 rounded-full overflow-hidden mb-8">
+                <Image
+                    src="/avatar.webp"
+                    alt="avatar"
+                    width={48}
+                    height={48}
+                    layout="responsive"
+                    style={{ width: 'auto', height: 'auto', objectPosition: 'bottom', objectFit: 'cover'}}
+                    priority
+                />
+            </div>
             <div className="flex flex-col items-center">
                 <h1 className="text-4xl">Boris Pouw</h1>
                 <span>boris@pouw.io</span>
