@@ -14,17 +14,17 @@ export default function Home() {
                 <LinkCard link={'https://linkedin.com/in/pouw'} title={'Linkedin'} svg={'linkedin.svg'}></LinkCard>
             </div>
             <div className="skill-section">
-                <div className="card grid grid-cols-3 place-items-center gap-32 md:gap-0">
+                <div className="card grid grid-cols-3 place-items-center gap-32 sm:gap-0">
                     <LinkCard title={'Angular'} svg={'angular.svg'}></LinkCard>
                     <LinkCard title={'Tailwind'} svg={'tailwindcss.svg'}></LinkCard>
                     <LinkCard title={'Next.js'} svg={'nextdotjs.svg'}></LinkCard>
                 </div>
-                <div className="card grid grid-cols-3 place-items-center gap-32 md:gap-0">
+                <div className="card grid grid-cols-3 place-items-center gap-32 sm:gap-0">
                     <LinkCard title={'.NET'} svg={'csharp.svg'}></LinkCard>
                     <LinkCard title={'Laravel'} svg={'laravel.svg'}></LinkCard>
                     <LinkCard title={'Node.js'} svg={'nodedotjs.svg'}></LinkCard>
                 </div>
-                <div className="card grid grid-cols-3 place-items-center gap-32 md:gap-0">
+                <div className="card grid grid-cols-3 place-items-center gap-32 sm:gap-0">
                     <LinkCard title={'SQL'} svg={'mariadb.svg'}></LinkCard>
                     <LinkCard title={'MongoDB'} svg={'mongodb.svg'}></LinkCard>
                     <LinkCard title={'RabbitMQ'} svg={'rabbitmq.svg'}></LinkCard>
