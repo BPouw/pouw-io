@@ -13,9 +13,6 @@ export default function Home() {
                 <LinkCard link={'https://github.com/bpouw'} title={'Github'} svg={'github.svg'}></LinkCard>
                 <LinkCard link={'https://linkedin.com/in/pouw'} title={'Linkedin'} svg={'linkedin.svg'}></LinkCard>
             </div>
-            <div className="hr-container flex justify-center w-full">
-                <hr className="w-96 h-0.5 bg-white border-0 rounded" />
-            </div>
             <div className="skill-section">
                 <div className="card grid grid-cols-3 place-items-center gap-32 sm:gap-0">
                     <LinkCard title={'Angular'} svg={'angular.svg'}></LinkCard>
