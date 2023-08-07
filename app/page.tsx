@@ -19,7 +19,7 @@ export default function Home() {
                     <LinkCard title={'Tailwind'} svg={'tailwindcss.svg'}></LinkCard>
                     <LinkCard title={'Next.js'} svg={'nextdotjs.svg'}></LinkCard>
                 </div>
-                <div className="card grid grid-cols-3 place-items-center gap-32 md:gap--">
+                <div className="card grid grid-cols-3 place-items-center gap-32 md:gap-0">
                     <LinkCard title={'.NET'} svg={'csharp.svg'}></LinkCard>
                     <LinkCard title={'Laravel'} svg={'laravel.svg'}></LinkCard>
                     <LinkCard title={'Node.js'} svg={'nodedotjs.svg'}></LinkCard>
