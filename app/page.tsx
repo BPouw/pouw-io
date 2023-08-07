@@ -20,12 +20,12 @@ export default function Home() {
                 <h1 className="text-4xl">Boris Pouw</h1>
                 <span>boris@pouw.io</span>
             </div>
-            <div className="card grid grid-cols-2 place-items-center gap-32 sm:gap-0">
+            <div className="card grid grid-cols-2 place-items-center gap-32 sm:gap-0 pb-4 pt-4">
                 <LinkCard link={'https://github.com/bpouw'} title={'Github'} svg={'github.svg'}></LinkCard>
                 <LinkCard link={'https://linkedin.com/in/pouw'} title={'Linkedin'} svg={'linkedin.svg'}></LinkCard>
             </div>
             <div className="skill-section">
-                <div className="card grid grid-cols-3 place-items-center gap-32 sm:gap-0">
+                <div className="card grid grid-cols-3 place-items-center gap-32 sm:gap-0 border-t-2 border-white">
                     <LinkCard title={'Angular'} svg={'angular.svg'}></LinkCard>
                     <LinkCard title={'Tailwind'} svg={'tailwindcss.svg'}></LinkCard>
                     <LinkCard title={'Next.js'} svg={'nextdotjs.svg'}></LinkCard>
