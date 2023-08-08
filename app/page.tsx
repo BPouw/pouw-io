@@ -7,12 +7,12 @@ export default function Home() {
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
             <div className="w-48 h-48 rounded-full overflow-hidden mb-8">
                 <Image
-                    src="/avatar.webp"
+                    src="/avatar.jpeg"
                     alt="avatar"
                     width={48}
                     height={48}
                     layout="responsive"
-                    style={{ width: 'auto', height: 'auto', objectPosition: 'bottom', objectFit: 'cover'}}
+                    style={{ width: 'auto', height: 'auto'}}
                     priority
                 />
             </div>
